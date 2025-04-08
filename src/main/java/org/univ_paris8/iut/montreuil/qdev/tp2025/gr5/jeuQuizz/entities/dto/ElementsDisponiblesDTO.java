@@ -12,5 +12,11 @@ public class ElementsDisponiblesDTO {
         this.listeJoueurs = listeJoueurs;
     }
 
+    public ArrayList<QuestionnaireDTO> getListeQuestionnaires() {
+        return listeQuestionnaires;
+    }
 
+    public ArrayList<JoueurDTO> getListeJoueurs() {
+        return listeJoueurs;
+    }
 }

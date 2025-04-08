@@ -4,18 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="906cb0b4-ad78-40c9-abbb-3bbb74cc3391" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2025/gr5/jeuQuizz/entities/dto/ElementsDisponiblesDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2025/gr5/jeuQuizz/services/impl/DeterminerElementsDispoPourPartie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2025/gr5/jeuQuizz/services/interfaces/DeterminerElementsDispoPourPartieInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2025/gr5/jeuQuizz/utils/exceptions/determinerElementsDispoExceptions/DeterminerElementsDispoException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2025/gr5/jeuQuizz/utils/exceptions/determinerElementsDispoExceptions/PasDeJoueurTrouve.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2025/gr5/jeuQuizz/utils/exceptions/determinerElementsDispoExceptions/PasDeQuestionnaireTrouve.java" afterDir="false" />
+    <list default="true" id="906cb0b4-ad78-40c9-abbb-3bbb74cc3391" name="Changes" comment="Commit méthode determinerElementsDispoPourPartie">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2025/gr5/jeuQuizz/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2025/gr5/jeuQuizz/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2025/gr5/jeuQuizz/entities/dto/ElementsDisponiblesDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2025/gr5/jeuQuizz/entities/dto/ElementsDisponiblesDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2025/gr5/jeuQuizz/services/impl/DeterminerElementsDispoPourPartie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2025/gr5/jeuQuizz/services/impl/PartieService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2025/gr5/jeuQuizz/services/interfaces/DeterminerElementsDispoPourPartieInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2025/gr5/jeuQuizz/services/interfaces/PartieServiceInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/univ_paris8/iut/montreuil/qdev/tp2025/gr5/jeuQuizz/DeterminerElementsDispoPourPartieImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/univ_paris8/iut/montreuil/qdev/tp2025/gr5/jeuQuizz/DeterminerElementsDispoPourPartieImplTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,9 +25,26 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="HARD" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "NikolaPetricevic"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/NikolaPetricevic/BUT2-R4.02-2025-5_Quizz_PETRICEVIC_FELLAH-SINT.git",
+    "accountId": "5b01f419-d82d-414e-ba38-de2b98c59a11"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -45,18 +56,87 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.DeterminerElementsDispoPourPartieImplTest.executor": "Run",
+    "JUnit.DeterminerElementsDispoPourPartieImplTest.testDeterminerElementsDispoPourPartie_EmptyJoueurs.executor": "Run",
+    "JUnit.DeterminerElementsDispoPourPartieImplTest.testDeterminerElementsDispoPourPartie_EmptyQuestionnaires.executor": "Run",
+    "JUnit.DeterminerElementsDispoPourPartieImplTest.testDeterminerElementsDispoPourPartie_Success.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "Maven.jeuQuizz_PETRICEVIC_FELLAH-sint [clean].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "test-methode",
     "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Maven.jeuQuizz_PETRICEVIC_FELLAH-sint [clean] (1)">
+  <component name="RunManager" selected="JUnit.DeterminerElementsDispoPourPartieImplTest">
+    <configuration name="DeterminerElementsDispoPourPartieImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jeuQuizz_PETRICEVIC_FELLAH-sint" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.univ_paris8.iut.montreuil.qdev.tp2025.gr5.jeuQuizz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.univ_paris8.iut.montreuil.qdev.tp2025.gr5.jeuQuizz" />
+      <option name="MAIN_CLASS_NAME" value="org.univ_paris8.iut.montreuil.qdev.tp2025.gr5.jeuQuizz.DeterminerElementsDispoPourPartieImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeterminerElementsDispoPourPartieImplTest.testDeterminerElementsDispoPourPartie_EmptyJoueurs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jeuQuizz_PETRICEVIC_FELLAH-sint" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.univ_paris8.iut.montreuil.qdev.tp2025.gr5.jeuQuizz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.univ_paris8.iut.montreuil.qdev.tp2025.gr5.jeuQuizz" />
+      <option name="MAIN_CLASS_NAME" value="org.univ_paris8.iut.montreuil.qdev.tp2025.gr5.jeuQuizz.DeterminerElementsDispoPourPartieImplTest" />
+      <option name="METHOD_NAME" value="testDeterminerElementsDispoPourPartie_EmptyJoueurs" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeterminerElementsDispoPourPartieImplTest.testDeterminerElementsDispoPourPartie_EmptyQuestionnaires" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jeuQuizz_PETRICEVIC_FELLAH-sint" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.univ_paris8.iut.montreuil.qdev.tp2025.gr5.jeuQuizz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.univ_paris8.iut.montreuil.qdev.tp2025.gr5.jeuQuizz" />
+      <option name="MAIN_CLASS_NAME" value="org.univ_paris8.iut.montreuil.qdev.tp2025.gr5.jeuQuizz.DeterminerElementsDispoPourPartieImplTest" />
+      <option name="METHOD_NAME" value="testDeterminerElementsDispoPourPartie_EmptyQuestionnaires" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeterminerElementsDispoPourPartieImplTest.testDeterminerElementsDispoPourPartie_Success" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jeuQuizz_PETRICEVIC_FELLAH-sint" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.univ_paris8.iut.montreuil.qdev.tp2025.gr5.jeuQuizz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.univ_paris8.iut.montreuil.qdev.tp2025.gr5.jeuQuizz" />
+      <option name="MAIN_CLASS_NAME" value="org.univ_paris8.iut.montreuil.qdev.tp2025.gr5.jeuQuizz.DeterminerElementsDispoPourPartieImplTest" />
+      <option name="METHOD_NAME" value="testDeterminerElementsDispoPourPartie_Success" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="jeuQuizz_PETRICEVIC_FELLAH-sint [clean] (1)" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -133,6 +213,14 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.DeterminerElementsDispoPourPartieImplTest" />
+        <item itemvalue="JUnit.DeterminerElementsDispoPourPartieImplTest.testDeterminerElementsDispoPourPartie_EmptyJoueurs" />
+        <item itemvalue="JUnit.DeterminerElementsDispoPourPartieImplTest.testDeterminerElementsDispoPourPartie_EmptyQuestionnaires" />
+        <item itemvalue="JUnit.DeterminerElementsDispoPourPartieImplTest.testDeterminerElementsDispoPourPartie_Success" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -151,8 +239,21 @@
       <option name="presentableId" value="Default" />
       <updated>1743779336855</updated>
       <workItem from="1743779338040" duration="2000" />
+      <workItem from="1744139648354" duration="1935000" />
     </task>
+    <task id="LOCAL-00001" summary="Commit méthode determinerElementsDispoPourPartie">
+      <option name="closed" value="true" />
+      <created>1744123924086</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1744123924086</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -164,5 +265,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Commit méthode determinerElementsDispoPourPartie" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit méthode determinerElementsDispoPourPartie" />
   </component>
 </project>
